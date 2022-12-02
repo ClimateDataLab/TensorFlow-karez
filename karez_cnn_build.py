@@ -209,10 +209,10 @@ print(classification_report(validation_generator.classes, y_pred, target_names=t
 #        class_mode='binary')
 
 #--- plot training and valid images
-#im = img.imread('//rdsfcifs.acrc.bris.ac.uk/AMR_ice_sheet_calculations/ggsrs/ml_karez/train/karez/shaft_011.png')
+#im = img.imread('//dirpath/ml_karez/train/karez/shaft_011.png')
 #plt.subplot(2,1,1)
 #plt.imshow(im)
-#im = img.imread('//rdsfcifs.acrc.bris.ac.uk/AMR_ice_sheet_calculations/ggsrs/ml_karez/train/nokarez/shaft_011.png')
+#im = img.imread('//dirpath/ml_karez/train/nokarez/shaft_011.png')
 #plt.subplot(2,1,2)
 #plt.imshow(im)
 #plt.show(block=True)
